@@ -1,0 +1,24 @@
+START_DAY: 01
+START_MONTH: August
+START_YEAR: 2019
+END_DAY: 02
+END_MONTH: August
+END_YEAR: 2019
+TRIP_TYPE: Flight
+ONE_WAY_TAB: //android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]
+ROUND_TRIP_TAB: //android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]
+NEW_YORK_TEXT: //android.widget.TextView[@resource-id="android:id/text1" and @text="New York"]
+LONDON_TEXT: //android.widget.TextView[@resource-id="android:id/text1" and @text="London"]
+ECONOMY_TEXT: //android.widget.TextView[@resource-id="android:id/text1" and @text="Economy"]
+SPINNER_FROM: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
+SPINNER_TO: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
+SPINNER_CLASS: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
+START_DATE_FIELD: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
+END_DATE_FIELD: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
+MONTH_VIEW: //android.view.View[@resource-id="android:id/month_view"]
+CONFIRM_BUTTON: //android.widget.Button[@resource-id="android:id/button1"]
+BOOK_BUTTON: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+SUCCESS_BOOKED: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup
+PRICE_BUTTON: //android.widget.Button[@resource-id="com.example.myapplication:id/price1"]
+CONFIRM_ORDER_BUTTON: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+CONTENT_VIEW_GROUP: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup

@@ -12,3 +12,6 @@ Click Sign In Button On Home Screen
 
 Verify Success SignIn
     Wait Until Element Is Visible        locator=//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
+
+Click Book Button On Home Screen
+    Click Element    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/book"]

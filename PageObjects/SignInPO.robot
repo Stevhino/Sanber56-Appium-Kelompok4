@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation        Semua yang terkait dengan SignIn Page
 Resource             ../Base/appiumBase.robot
+Resource             ../PageObjects/HomePagePO.robot
 
 
 *** Keywords ***
@@ -16,3 +17,11 @@ Input Password on SignIn Page
 
 Click SignIn Button
     Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+
+Sign in With Valid Credential
+    [Arguments]                ${username}   ${password}
+    Verify Home Screen Appears
+    Click Sign In Button On Home Screen
+    Input Username on SignIn Page        username=${username}
+    Input Password on SignIn Page    password=${password}
+    Click SignIn Button
