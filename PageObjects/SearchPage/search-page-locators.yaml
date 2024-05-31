@@ -1,0 +1,5 @@
+search_locator: //android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
+search_input: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+search_button: //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
+search_invalid_msg: //android.widget.Toast[@text="Please enter valid Flight Number"]
+search_verify_number: //android.widget.TextView[@text="DA 935"]
